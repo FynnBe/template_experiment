@@ -10,13 +10,7 @@ setup(
     license="Apache License 2.0",
     packages=["template_experiment"],
     install_requires=[
-        "torch=1.1.0",
-        "dill=0.2.9",
-        "pyyaml=5.1",
-        "scipy=1.2.1",
-        "h5py=2.9.0",
-        "numpy=1.16.3",
-        "scikit-image=0.15.0",
+        "pytorch",
     ],
     zip_safe=False,
 )
